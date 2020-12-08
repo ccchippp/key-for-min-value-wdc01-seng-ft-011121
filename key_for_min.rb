@@ -14,5 +14,5 @@ count = 0
       end
       count += 1
     end
-    return lowest
+    return lowest[0]
 end
