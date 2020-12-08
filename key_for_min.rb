@@ -7,7 +7,7 @@ count = 0
     if name_hash == {}
          return nil
     else
-      name_hash = name_hash.each
+      name_hash.each do
       lowest = name_hash[0][0]
       if name_hash[0][count] < lowest
         lowest = name_hash[0][count]
