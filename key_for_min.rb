@@ -12,7 +12,7 @@ count = 0
       if name_hash[0][count] < lowest
         lowest = name_hash[0][count]
       end
-    end
       count += 1
-      return lowest
+    end
+    return lowest
 end
