@@ -9,11 +9,10 @@ count = 0
     else
       name_hash.each do
       lowest = name_hash[0][0]
-      if name_hash[0][count] < lowest
+      if name_hash[0][count] < lowest do
         lowest = name_hash[0][count]
-              count += 1
+        count += 1
       end
-
     end
     return lowest
 end
