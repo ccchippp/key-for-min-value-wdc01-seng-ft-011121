@@ -11,9 +11,8 @@ count = 0
       lowest = name_hash[0][0]
       if name_hash[0][count] < lowest do
         lowest = name_hash[0][count]
-
       end
-              count += 1
+      count += 1
     end
     return lowest
 end
